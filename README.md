@@ -25,3 +25,16 @@ Aquesta aplicació implementa una comunicació client-servidor utilitzant sòcol
 1. **Compilar el servidor:**
    ```bash
    g++ server.cpp -o server -lws2_32
+
+2. **Compilar el client**
+   ````bash
+   g++ client.cpp -o client -lws2_32
+
+3. **Executar el servidor**
+   ````bash
+   ./server.exe
+   
+4. **Executar el client**
+   ````bash
+   ./client.exe
+
